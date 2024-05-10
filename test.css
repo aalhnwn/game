@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hed{
+    position: relative;
+    background: #124;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+h1 #boot,#user-S{
+    color: red;
+}
+h1 #user,#boot-V{
+    color: blue;
+}
+h2{
+    color: darkgray;
+}
+#bar{
+    color: dimgray;
+}
+.bar-bot{
+    display: grid;
+    place-items: center;
+    height: 70px;
+}
+.user-boot{
+    width: 90%;
+    height: 70vh;
+}
+#user-img,#boot-img{
+    overflow: hidden;
+    border-radius: 50%;
+    height: 100%;
+}
+#user-img img,#boot-img img{
+    width: 100%;
+    height: 100%;
+}
+#boot-user{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user,.boot{
+    position: relative;
+    width: 40%;
+    height: 50%;
+}
+.value-user,.value-boot{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#value-user,.value-boot{
+    font-size: 21px;
+}
+#value-user span,#value-boot span{
+    color: red;
+}
+#value-user b,#value-boot b{
+    color: white;
+}
+.icons,.icons-boot{
+    position: absolute;
+    align-items: center;
+    right: 3px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    max-width: 214px;
+}
+.icon-user,.icon-boot{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    place-items: center;
+}
+.icon-user button,.icon-boot button{
+    height: 70%;
+    width: 20%;
+    font-size: 1.7em;
+    margin: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media (max-width:517px) {
+    .icon-user button,.icon-boot button{
+        max-width: 50px;
+        min-width: 40px;
+    }
+    .icons,.icons-boot{
+        width: 83%;
+    }
+    .user,.boot{
+        width: 50%;
+    }
+}
+#hagr-user,.hagr-boot{
+    background: red;
+    color: #fff;
+}
+#hagr-user:hover{
+    background: rgba(248, 38, 38, 0.849);
+}
+.hagr-boot:hover{
+    background: rgba(253, 66, 66, 0.849);
+}
+#warq-user,.warq-boot{
+    background: blue;
+}
+#warq-user:hover{
+    background: rgba(65, 65, 255, 0.849);
+}
+.warq-boot:hover{
+    background: rgba(65, 65, 255, 0.849);
+}
+/* #mqs{
+    background: ;
+} */
+.icons-boot{
+    position: static;
+}
+.icon-boot{
+    text-align: right;
+    display: grid;
+}
+.icon-load{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: auto;
+}
+.icon-load-remove button{
+    height: 100%;
+    width: 60px;
+    margin: 3px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 300ms;
+}
+button:hover{
+    background: rgba(214, 214, 214, 0.849);
+}
+.icon-load-remove{
+    height:45px;
+}
+.wal{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: brown;
+}
+.wal p{
+    font-weight: 900;
+}
